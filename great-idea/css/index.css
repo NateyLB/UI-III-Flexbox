@@ -51,6 +51,7 @@ table {
 * {
 	box-sizing: border-box;
 	
+	
 }
 
 html, body {
@@ -70,18 +71,19 @@ body{
 }
 /* nav bar*/
 header{
-	margin-top:3%;
+	display:flex;
+	align-items: center;
+	justify-content: center;
 }
 nav{
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
-	width:100%;
 	overflow: hidden;
   background-color: rgb(144, 196, 255);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  width: 90%; /* Full width */
 }
 
 .links{
@@ -185,14 +187,6 @@ header nav a:hover{
 	
 }
 
-
-/* footer{
-	display:inline-block;
-	width:100%;
-	margin-bottom: 13%;
-} */
-
-
 #topLine{
 	width:90%;
 	margin:auto;
@@ -210,6 +204,86 @@ address{
 footer{
 	display:flex;
 	justify-content: center;
+	align-items: flex-end;
     height: 6vw;
 }
+
+/* start of services page*/
+
+.services{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 32vw;
+}
+
+.services div{
+	width:90%
+}
+
+.services h1{
+	font-size:2vw;
+}
+
+.services-header-img{
+	width: 100%;
+}
+
+.gallery{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+	align-items: center;
+	height:75vw;
+}
+
+.gallery div{
+	width: 47%;
+	height: 17vw;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-left: 2vw;
+	background-color: rgba(76, 76, 76, 0.137);
+}
+
+.gallery .button{
+	height:2vw;
+	width: 8vw;
+	padding-left: 0;
+}
+
+.facts{
+	display:flex;
+	justify-content: space-between;
+	height: 38vw;
+	align-items: center;
+}
+
+.facts div{
+	width: 43%;
+}
+.facts div img{
+	width:100%
+}
+.thingList{
+	display:flex;
+	flex-direction: column;
+	width:40%;
+	justify-content: space-evenly;
+	height: 38vw;
+	
+}
+
+ul{
+	display:flex;
+	flex-direction: column;
+	height:10vw;
+	justify-content: space-evenly;
+	list-style-type: square;
+	padding-left:4% ;
+}
+
 
