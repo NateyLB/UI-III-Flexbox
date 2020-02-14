@@ -202,7 +202,7 @@ address{
 	flex-direction:column;
 	justify-content:space-evenly;
 	height:15vw;
-	padding-left:6%;
+	padding-left:1.5%;
 }
 
 footer{
@@ -262,6 +262,7 @@ footer{
     border-radius: 5px;
     text-align: center;
 }
+/*some facts section*/
 
 .facts{
 	display:flex;
