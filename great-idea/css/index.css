@@ -229,7 +229,7 @@ footer{
 .services-header-img{
 	width: 100%;
 }
-
+/* gallery of servies*/
 .gallery{
 	display:flex;
 	flex-direction:row;
@@ -247,12 +247,16 @@ footer{
 	justify-content: space-evenly;
 	padding-left: 2vw;
 	background-color: rgba(76, 76, 76, 0.137);
+	border:1px solid black;
 }
 
 .gallery .button{
-	height:2vw;
-	width: 8vw;
-	padding-left: 0;
+	height: 3vw;
+    width: 9vw;
+    padding: 3% 2%;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
 }
 
 .facts{
